@@ -49,16 +49,18 @@ set(EXERCISES
     ExemplosMoodle/M2_material/exemplo_02
     ExemplosMoodle/M3_material/exemplo_03
     ExemplosMoodle/M4_material/exemplo_04
-    # ExemplosMoodle/M5_material/exemplo_05
     HelloTriangle
     HelloTransform
     HelloTexture
     Modulo2/Ex1Parte1M2
     Modulo2/Ex1Parte2M2
+    Modulo2/Vivencial17052025    # <-- NOVO EXERCÍCIO AQUI
     Modulo3/M3JogoCores
 )
 
-add_compile_options(-Wno-pragmas)
+if (CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+    add_compile_options(-Wno-pragmas)
+endif()
 
 # Define as bibliotecas para cada sistema operacional
 if(WIN32)
