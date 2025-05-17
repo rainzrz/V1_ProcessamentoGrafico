@@ -1,3 +1,8 @@
+// Atividade Vivencial 17/05/2025 (Sábado)
+// Arthur da Silva Volpato
+// Raian Rodrigues Guimarães
+// João Pedro Beilke da Costa
+
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
