@@ -4,19 +4,6 @@ Este repositório é baseado na estrutura do projeto PGCCHIB - Processamento Gr�
 
 A atividade vivencial do dia 17 de maio foi implementada no arquivo Ex1Parte2M2.cpp, localizado em src/.
 
-## 📂 Estrutura do Repositório
-📂 PGCCHIB/
-├── 📂 include/               # Arquivos de cabeçalho (incluir glad manualmente)
-│   └── 📂 glad/
-├── 📂 common/                # Código compartilhado (glad.c)
-├── 📂 src/                   # Código-fonte dos exercícios
-│   └── Ex1Parte2M2.cpp      # ✅ Atividade do dia 17 de maio
-├── 📄 CMakeLists.txt         # Arquivo de build do CMake
-├── 📄 GettingStarted.md      # Tutorial de configuração
-└── 📄 README.md              # Documentação principal
-
-
-
 Siga as instruções detalhadas em [GettingStarted.md](GettingStarted.md) para configurar e compilar o projeto.
 
 ## ⚠️ **IMPORTANTE: Baixar a GLAD Manualmente**
