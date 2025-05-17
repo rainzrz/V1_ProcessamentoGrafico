@@ -5,23 +5,16 @@ Este repositório é baseado na estrutura do projeto PGCCHIB - Processamento Gr�
 A atividade vivencial do dia 17 de maio foi implementada no arquivo Ex1Parte2M2.cpp, localizado em src/.
 
 ## 📂 Estrutura do Repositório
-plaintext
 📂 PGCCHIB/
-├── 📂 include/               # Cabeçalhos e bibliotecas de terceiros
-│   ├── 📂 glad/              # Cabeçalhos da GLAD (OpenGL Loader)
-│   │   ├── glad.h
-│   │   ├── 📂 KHR/           # Diretório com cabeçalhos da Khronos (GLAD)
-│   │       ├── khrplatform.h
-├── 📂 common/                # Código reutilizável entre os projetos
-│   ├── glad.c                # Implementação da GLAD
-├── 📂 src/                   # Código-fonte dos exemplos e exercícios
-│   ├── HelloTriangle.cpp     # Exemplo básico de renderização com OpenGL
-│   ├── HelloTransform.cpp    # Exemplo de transformação de objetos em OpenGL
-│   ├── ...                   # Outros exemplos e exercícios futuros
-├── 📂 build/                 # Diretório gerado pelo CMake (não incluído no repositório)
-├── 📄 CMakeLists.txt         # Configuração do CMake para compilar os projetos
-├── 📄 README.md              # Este arquivo, com a documentação do repositório
-├── 📄 GettingStarted.md      # Tutorial detalhado sobre como compilar usando o CMake
+├── 📂 include/               # Arquivos de cabeçalho (incluir glad manualmente)
+│   └── 📂 glad/
+├── 📂 common/                # Código compartilhado (glad.c)
+├── 📂 src/                   # Código-fonte dos exercícios
+│   └── Ex1Parte2M2.cpp      # ✅ Atividade do dia 17 de maio
+├── 📄 CMakeLists.txt         # Arquivo de build do CMake
+├── 📄 GettingStarted.md      # Tutorial de configuração
+└── 📄 README.md              # Documentação principal
+
 
 
 Siga as instruções detalhadas em [GettingStarted.md](GettingStarted.md) para configurar e compilar o projeto.
