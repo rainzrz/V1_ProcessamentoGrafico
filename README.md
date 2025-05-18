@@ -4,6 +4,16 @@ Este repositório é baseado na estrutura do projeto PGCCHIB - Processamento Gr�
 
 A atividade vivencial do dia 17 de maio foi implementada no arquivo `Triangulos.cpp`, localizado em `src/Vivencial`.
 
+```powershell
+cd ~seudiretório\V1_ProcessamentoGrafico\
+Remove-Item -Recurse -Force .\build\
+mkdir build
+cd build
+cmake ..
+cmake --build .
+.\Debug\Triangulos.exe
+```
+
 Siga as instruções detalhadas em [GettingStarted.md](GettingStarted.md) para configurar e compilar o projeto.
 
 ## ⚠️ **IMPORTANTE: Baixar a GLAD Manualmente**
@@ -32,11 +42,3 @@ Após a geração, extraia os arquivos baixados e coloque-os nos diretórios cor
 
 Se quiser compilar e rodar o projeto do zero, siga os comandos abaixo:
 
-```powershell
-cd ~seudiretório\V1_ProcessamentoGrafico\
-Remove-Item -Recurse -Force .\build\
-mkdir build
-cd build
-cmake ..
-cmake --build .
-.\Debug\Triangulos.exe
