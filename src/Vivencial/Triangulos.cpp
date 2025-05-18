@@ -1,8 +1,3 @@
-// Atividade Vivencial 17/05/2025 (Sábado)
-// Arthur da Silva Volpato
-// Raian Rodrigues Guimarães
-// João Pedro Beilke da Costa
-
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
@@ -19,7 +14,7 @@ struct Triangle {
     vec3 position;
     vec3 dimensions;
     vec3 color;
-    GLuint vao; // Cada triângulo agora tem seu próprio VAO
+    GLuint vao; 
 };
 
 vector<Triangle> triangles;
@@ -112,7 +107,7 @@ int main() {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-    GLFWwindow* window = glfwCreateWindow(800, 600, "Triângulos Interativos", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(800, 600, "Vivencial Arthur,Raian,João", NULL, NULL);
     if (window == NULL) {
         cout << "Falha ao criar a janela GLFW" << endl;
         glfwTerminate();
