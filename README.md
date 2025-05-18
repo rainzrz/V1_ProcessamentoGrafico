@@ -2,7 +2,7 @@
 
 Este repositório é baseado na estrutura do projeto PGCCHIB - Processamento Gráfico, fornecido pela disciplina de Processamento Gráfico.
 
-A atividade vivencial do dia 17 de maio foi implementada no arquivo `Ex1Parte2M2.cpp`, localizado em `src/`.
+A atividade vivencial do dia 17 de maio foi implementada no arquivo `Triangulos.cpp`, localizado em `src/Vivencial`.
 
 Siga as instruções detalhadas em [GettingStarted.md](GettingStarted.md) para configurar e compilar o projeto.
 
@@ -33,7 +33,7 @@ Após a geração, extraia os arquivos baixados e coloque-os nos diretórios cor
 Se quiser compilar e rodar o projeto do zero, siga os comandos abaixo:
 
 ```powershell
-cd C:\Users\raian\OneDrive\Desktop\V1_ProcessamentoGrafico\
+cd ~seudiretório\V1_ProcessamentoGrafico\
 Remove-Item -Recurse -Force .\build\
 mkdir build
 cd build
